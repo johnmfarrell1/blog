@@ -69,4 +69,10 @@ social:
     share_title:
     share_link:
 
+  - icon:    envelope
+    url:    mailto:john.m.farrell1@gmail.com
+    desc:    email
+    share_url:
+    share_title:
+    share_link:
 
