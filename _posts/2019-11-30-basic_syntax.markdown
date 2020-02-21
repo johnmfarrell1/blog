@@ -4,8 +4,8 @@ title:  "Basic Syntax"
 date:   2019-11-30 14:34:25
 categories: 
 tags: [Tech, Markdown]
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
-image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+image: /assets/article_images/2019-11-30-basic_syntax/night-track.JPG
+image2: /assets/article_images/2019-11-30-basic_syntax/night-track-mobile.JPG
 ---
 #Formats and CSS features
 
