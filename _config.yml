@@ -1,63 +1,72 @@
 # Build settings
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "IfIWere.me"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   A mostly technical personal blog about anything and everything from development ideas, to home brewing, to DIY, to cooking, to photography and everything in between.
 
-email: a-mail@mail.mail
+email: john.m.farrell1@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/m50_flyover.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'John Farrell'
+author: 'John Farrell'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://ifiwere.me" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+twitter_handle: '@john_shm'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: disqus_8HbhQw7z7P
 
 #google_analytics: UA-XXXXX-X
 
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
+    url:	https://twitter.com/john_shm
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/john.farrell.165685
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/john-farrell-51203255/
+    desc:	LinkedIn
     share_url:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+  - icon:	github
+    url:	https://github.com/johnmfarrell1
+    desc:	Github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:    beer
+    url:    https://untappd.com/user/Johnmfarrell
+    desc:    Untappd
+    share_url:
+    share_title:
+    share_link:
+
+
