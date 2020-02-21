@@ -632,7 +632,7 @@ pre
   background: #eee
   font-family: $font-sans
   font-size: 12px
-  border-radius: 3px 0 0 3px
+  border-radius: 3px
   color: #999
   display: inline-block
   height: 26px
@@ -641,26 +641,19 @@ pre
   position: relative
   margin: 0 10px 10px 0
   text-decoration: none !important
-  -webkit-transition: color 0.2s
 
   &::before
     background: #fff
     border-radius: 10px
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.25)
-    content: ''
     height: 6px
     left: 10px
-    position: absolute
     width: 6px
     top: 10px
 
   &::after
     background: #fff
-    border-bottom: 13px solid transparent
-    border-left: 10px solid #eee
-    border-top: 13px solid transparent
     content: ''
-    position: absolute
     right: 0
     top: 0
 
@@ -670,3 +663,34 @@ pre
 
     &::after
       border-left-color: darkseagreen
+
+.category
+  border: 1px solid lightgrey
+  border-radius: 20px
+  border: 1px solid lightgrey
+  display: inline-block
+  font-size: 12px
+  margin: 5px 0
+  padding: 5px 10px
+  text-shadow: none
+  white-space: nowrap
+
+.category-technology
+  color: crimson
+  border: 1px solid crimson
+
+.category-brewing
+  color: sandybrown
+  border: 1px solid sandybrown
+
+.category-photography
+  color: darkgreen
+  border: 1px solid darkgreen
+
+.category-food
+  color: royalblue
+  border: 1px solid royalblue
+
+.category-diy
+  color: darkorange
+  border: 1px solid darkorange

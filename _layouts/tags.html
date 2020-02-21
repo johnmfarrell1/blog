@@ -1,20 +1,16 @@
 ---
 layout: page
 ---
-<!-- iterate through all tags on the site -->
 {% for tagitem in site.tags %}
-<!-- for each tag, create an anchor by using the tag name as an id -->
 <div id="{{ tagitem[0] }}">
-    <a href="/tags/#{{tagitem[0]}}"  class="tag">{{tagitem[0]}}</a>
+    Posts tagged as: <a href="/tags/#{{tagitem[0]}}"  class="tag">{{tagitem[0]}}</a>
 
-    <ul style="list-style-type:none"> <!-- create the list of posts -->
-        <!-- iterate through all the posts on the site -->
+    <ul style="list-style-type:none">
         {% for post in site.posts %}
-        <!-- list only those which contain the current tag -->
         {% if post.tags contains tagitem[0] %}
         <li>
             <header class="post-header">
-                <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+                <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }} <span class="category category-{{ post.category | downcase }}">{{ post.category}}</span></a></h2>
             </header>
             <div class="post-meta">
                 Published on <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
