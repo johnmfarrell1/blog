@@ -8,4 +8,4 @@ permalink: /about/
 
 Full stack software developer/Home brewer/Beer drinker.
 
-Blog design forked from [mediator](https://github.com/dirkfabisch/mediator)
+Blog design is a copy of [mediator](https://github.com/dirkfabisch/mediator)

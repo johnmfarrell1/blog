@@ -52,11 +52,12 @@ comments: true
           {% if page.tags.size > 0 %}
           <ul class="tags">
             {% for tag in page.tags %}
-            <li><a href="#" class="tag">{{tag}}</a></li>
+            <li><a href="/tags/#{{tag}}" class="tag">{{tag}}</a></li>
             {% endfor %}
           </ul>
           {% endif %}
           <a name="topofpage"></a>
+          <hr>
           {{content}}
         </section>
         <footer class="post-footer">
