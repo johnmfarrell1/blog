@@ -188,12 +188,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (1.9.0)
-      addressable (~> 2.6)
-      jekyll (< 5)
-      mime-types (~> 3)
-      mini_magick (~> 4)
-      objective_elements (~> 1.1.1)
     jemoji (0.11.1)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
@@ -204,10 +198,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mime-types (3.3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
-    mini_magick (4.10.1)
     mini_portile2 (2.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -217,7 +207,6 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    objective_elements (1.1.2)
     octokit (4.16.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -256,7 +245,6 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   github-pages
-  jekyll_picture_tag
   jemoji
 
 BUNDLED WITH
