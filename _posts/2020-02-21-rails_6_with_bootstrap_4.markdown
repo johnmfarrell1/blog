@@ -171,4 +171,4 @@ bin/rails s
 
 If everything worked as expected, you should see the following:
 
-{% picture assets/article_images/2020-02-21-rails_6_with_bootstrap_4/screenshot-rails-6-bootstrap-4.png alt="Rails 6 with Bootstrap 4" %}
+![Rails 6 with Bootstrap 4]({{ site.url }}/assets/article_images/2020-02-21-rails_6_with_bootstrap_4/screenshot-rails-6-bootstrap-4.png)

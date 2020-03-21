@@ -4,7 +4,3 @@ source 'https://rubygems.org'
 gem 'github-pages'
 gem 'bourbon'
 gem 'jemoji'
-
-group :jekyll_plugins do
-  gem 'jekyll_picture_tag'
-end
