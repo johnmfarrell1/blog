@@ -6,6 +6,4 @@ permalink: /about/
 <img src="{{site.logo}}" width="200">
 
 
-Full stack software developer/Home brewer/Beer drinker.
-
-Blog design is a copy of [mediator](https://github.com/dirkfabisch/mediator)
+Full stack software developer/home brewer/beer drinker/food eater.

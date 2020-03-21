@@ -2,6 +2,7 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll_picture_tag
 
 # Site settings
 title: "IfIWere.me"
@@ -75,4 +76,3 @@ social:
     share_url:
     share_title:
     share_link:
-
