@@ -4,5 +4,7 @@ source 'https://rubygems.org'
 gem 'github-pages'
 gem 'bourbon'
 gem 'jemoji'
-gem 'jekyll_picture_tag'
-gem 'jekyll-include-cache'
+
+group :jekyll_plugins do
+  gem 'jekyll_picture_tag'
+end

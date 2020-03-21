@@ -2,8 +2,6 @@
 plugins:
   - jemoji
   - jekyll-paginate
-  - jekyll_picture_tag
-  - jekyll-include-cache
 
 # Site settings
 title: "IfIWere.me"
