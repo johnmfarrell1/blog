@@ -22,8 +22,8 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "https://johnmfarrell1.github.io/personal_blog" # the base hostname & protocol for your site
-baseurl: ""
+url: "https://johnmfarrell1.github.io/blog" # the base hostname & protocol for your site
+baseurl: "/blog"
 #used to display twitter cards
 twitter_handle: '@john_shm'
 
