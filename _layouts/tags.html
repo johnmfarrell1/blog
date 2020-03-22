@@ -3,7 +3,7 @@ layout: page
 ---
 {% for tagitem in site.tags %}
 <div id="{{ tagitem[0] }}">
-    Posts tagged as: <a href="/tags/#{{tagitem[0]}}"  class="tag">{{tagitem[0]}}</a>
+    Posts tagged as: <a href="{{site.baseurl}}/tags/#{{tagitem[0]}}"  class="tag">{{tagitem[0]}}</a>
 
     <ul style="list-style-type:none">
         {% for post in site.posts %}
