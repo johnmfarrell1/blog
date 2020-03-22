@@ -5,6 +5,7 @@ date:   2020-01-30 11:34:20
 category: Technology
 tags: [Ruby, Jekyll]
 image: /assets/images/royal_canal_bridge.jpg
+image2: /assets/images/royal_canal_bridge.jpg
 ---
 For those who have never heard of [Jekyll](https://jekyllrb.com/), Jekyll is a simple static website development framework build in Ruby.
 It uses a bunch of existing tools and bundles them together to make it easier to create a static website, perfect for blogs or static company websites.

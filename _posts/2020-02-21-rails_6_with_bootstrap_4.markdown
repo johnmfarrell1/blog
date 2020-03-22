@@ -5,6 +5,7 @@ date:   2020-02-21 14:34:25
 category: Technology
 tags: [Ruby, Rails, Bootstrap]
 image: /assets/images/blessington.jpg
+image2: /assets/images/blessington.jpg
 ---
 
 Rails with Bootstrap is a combo I've found myself using for quite some time now due to how easy it is to get an application up and running quickly.

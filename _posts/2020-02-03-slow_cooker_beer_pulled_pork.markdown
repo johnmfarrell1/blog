@@ -5,6 +5,7 @@ date:   2020-02-03 14:40:56
 category: Food
 tags: [Recipe, BBQ, Beer, Stout]
 image: /assets/images/phoenix_park.jpg
+image2: /assets/images/phoenix_park.jpg
 ---
 Pulled pork is one of those things that's nearly impossible to mess up. 
 The great thing about pulled pork also is you can do so many things with it, so when I tend to make it, I make a big batch and end up eating it for days in various ways - pulled pork burgers, in burritos, on top of a baked potato, over nachos, on top of a pizza... there really is alot of different ways to use it up.
