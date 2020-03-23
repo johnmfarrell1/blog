@@ -245,6 +245,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   github-pages
+  jekyll-seo-tag
   jemoji
 
 BUNDLED WITH

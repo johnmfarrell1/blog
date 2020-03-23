@@ -2,9 +2,11 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Site settings
 title: "If I Were.me"
+tagline: "A personal blog dedicated to everything Im interested in"
 description: > # this means to ignore newlines until "email:"
    A mostly technical personal blog about anything and everything from development ideas, to home brewing, to DIY, to cooking, to photography and everything in between.
 
@@ -25,6 +27,8 @@ paginate:	5
 url: "https://ifiwere.me" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
+twitter:
+  username: john_shm
 twitter_handle: '@john_shm'
 
 #fill in disqus shortname to use disqus
