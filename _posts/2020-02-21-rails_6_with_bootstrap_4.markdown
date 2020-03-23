@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Rails 6 with Bootstrap 4"
 date:   2020-02-21 14:34:25
 category: Technology

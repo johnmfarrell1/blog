@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Using Jekyll for static websites"
 date:   2020-01-30 11:34:20
 category: Technology

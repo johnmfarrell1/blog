@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Slow cooker beer pulled pork"
 date:   2020-02-03 14:40:56
 category: Food
