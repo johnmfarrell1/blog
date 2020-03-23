@@ -4,7 +4,7 @@ plugins:
   - jekyll-paginate
 
 # Site settings
-title: "IfIWere.me"
+title: "If I Were.me"
 description: > # this means to ignore newlines until "email:"
    A mostly technical personal blog about anything and everything from development ideas, to home brewing, to DIY, to cooking, to photography and everything in between.
 
@@ -30,7 +30,7 @@ twitter_handle: '@john_shm'
 #fill in disqus shortname to use disqus
 disqus: disqus_8HbhQw7z7P
 
-#google_analytics: UA-XXXXX-X
+google_analytics: UA-161575195-1
 
 # social icons and sharing options
 social:
