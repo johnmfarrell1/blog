@@ -3,6 +3,7 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Site settings
 title: "If I Were.me"
