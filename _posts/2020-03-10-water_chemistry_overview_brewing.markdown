@@ -146,7 +146,7 @@ The following equation can be used to calculate the amount of CRS needed:
 See my [practical example]({{ site.url }}/brewing/2020/03/10/water_adjustments_pale_ale.html) for a real world example.
 
 **Other techniques**
-* _Boiling water_ removes carbonate hardness via precipitates of solid calcium carbonate or solid magnesium carbonate but its expensive and will leave deposits on your elements.
+* _Boiling water_ removes carbonate hardness via precipitates of solid calcium carbonate or solid magnesium carbonate but its expensive (in terms of energy needed and time required) and will leave deposits on your elements.
 * _Lactic acid_ also reduces alkalinity however can only be used in small amounts due to the fact that it has a lower taste threshold.
 * Most homebrew stores sell _acid malt_ which is essentially malt that has been acidified with lactic acid. This can also be used in the mash as part of the grist in small amounts to help adjust the mash pH.
 
