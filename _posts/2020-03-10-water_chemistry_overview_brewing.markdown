@@ -143,7 +143,7 @@ The following equation can be used to calculate the amount of CRS needed:
 
 > (alkalinity to remove/183) x volume of water
 
-See practical example for a real world example
+See my [practical example]({{ site.url }}/brewing/2020/03/10/water_adjustments_pale_ale.html) for a real world example.
 
 **Other techniques**
 * _Boiling water_ removes carbonate hardness via precipitates of solid calcium carbonate or solid magnesium carbonate but its expensive and will leave deposits on your elements.
