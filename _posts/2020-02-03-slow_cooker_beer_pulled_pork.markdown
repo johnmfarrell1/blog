@@ -4,7 +4,7 @@ comments: true
 title:  "Slow cooker beer pulled pork"
 date:   2020-02-03 14:40:56
 category: Food
-tags: [Recipe, BBQ, Beer, Stout]
+tags: [Recipe, Slow cooker, BBQ, Beer, Stout]
 image: /assets/images/phoenix_park.jpg
 image2: /assets/images/phoenix_park.jpg
 ---
