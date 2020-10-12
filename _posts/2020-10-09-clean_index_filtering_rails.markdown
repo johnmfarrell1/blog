@@ -97,6 +97,9 @@ And conveniently, our `filter_scopes` user method also keeps track so it is auto
 User.filter_scopes
 # => [:first_name, :last_name, :country, :email]
 ```
+And as a result we'll be able to query our index with the above URL params.
+
+e.g. `www.site.com?first_name=John&last_name=Farrell&country=Ireland&email=some.email@gmail.com`
 
 Pretty neat! 
 
