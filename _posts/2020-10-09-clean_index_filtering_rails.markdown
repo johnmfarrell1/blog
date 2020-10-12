@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Clean index searching/filtering in Rails"
+title:  "Clean index filtering in Rails"
 date:   2020-10-09 09:12:15
 category: Technology
 tags: [Ruby, Rails, API, Search]
