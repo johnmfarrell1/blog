@@ -25,7 +25,7 @@ The above scope refactored as a query object might look a little bit like as fol
 
 <script src="https://gist.github.com/johnmfarrell1/7e7658974d658ec8a63b74ec65304752.js"></script>
 
-This _kind of_ works. I mean its encapsulated our query logic, but its not very flexible as we can mix it with other queries like we would typically do when chaining scopes.
+This _kind of_ works. I mean its encapsulated our query logic, but its not very flexible as we can't mix it with other queries like we would typically do when chaining scopes.
 We could make this a little bit more flexible by giving the query object some state so that it can be passed a relation object to work on (with a default so its optional).
 We'll still keep the main invoking method name as `call` which is a de facto practice in Ruby.
 It might look something like as follows:
@@ -38,7 +38,7 @@ For example, something like this `UserPromotedPostsQuery.new(User.country('Irela
 In other words, Users with promoted posts from Ireland. 
 
 It would probably make sense to namespace this query also under the `User` namespace as you'd imagine our `queries` directory would get quite unmanageable as we add more to it.
-In that case, the query object would be referenced via `User::PromotedPostsQuery` and live in `app/users/promoted_posts_query.rb`.
+In that case, the query object would be referenced via `User::PromotedPostsQuery` and live in `app/queries/users/promoted_posts_query.rb`.
 
 As we create more queries, you can imagine that theres going to be some copy and pasting each time, as the initializer is going to be nearly the same for each one.
 The only aspect that will change is the subject, which can be implied by the name space in any case.
