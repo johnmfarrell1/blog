@@ -106,4 +106,4 @@ Pretty neat!
 For a working example of this in action, you can take a look at the following repo:
 [https://github.com/johnmfarrell1/rails_index_filtering](https://github.com/johnmfarrell1/rails_index_filtering)
 
-In the next post, I'll describe an approach to the Query Object pattern and how it can be easily wired up to also use this concern in a nice clean way so that scopes and scope logic can be moved out of the model to avoid the model getting too fat if necessary.
+In the next post, I'll describe an approach to the [Query object](https://ifiwere.me/technology/2020/10/12/query_objects_rails.html) pattern and how it can be easily wired up to also use this concern in a nice clean way so that scopes and scope logic can be moved out of the model to avoid the model getting too fat if necessary.
