@@ -63,6 +63,9 @@ We simply applied the same logic for arrays by adding the following line so that
 filter_value = filter_value.reject(&:blank?) if filter_value.is_a?(Array)
 ```
 
+## 4. Changing filter method name
+Ruby 6.3 introduced `Enumerable#filter` which clashes with the naming of this concern, so in order to avoid this, its best to rename the filtering method to `filter_by`.
+
 ## The complete concern and example usage
 
 So, heres what the modified concern looks like now...
